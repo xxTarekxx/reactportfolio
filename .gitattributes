@@ -1,4 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 * linguist-vendored
-*.reactjs linguist-vendored=false
+*.reactjs linguist-vendored=true
