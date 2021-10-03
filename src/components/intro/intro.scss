@@ -1,3 +1,32 @@
+@import "../../global.scss";
+
 .intro {
-    background-color: #5a189a ;
+    background-color: #ffffff ;
+    // #5a189a
+    display: flex;
+    
+
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+
+        .imgContainer {
+            width: 700px;
+            height: 700px;
+            background-color: $maincolor;
+            border-radius: 50%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            float: right;
+
+            img{
+                height: 99%;
+            }
+        }
+    }
+    .right {
+        flex: 0.5;
+ 
+    }
 }

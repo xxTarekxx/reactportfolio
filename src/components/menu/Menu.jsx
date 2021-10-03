@@ -22,6 +22,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+
     </div>
   );
 }
