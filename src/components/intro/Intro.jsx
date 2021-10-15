@@ -28,7 +28,7 @@ export default function Intro() {
             Front End <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#projects">
           <img src="assets/down.png" alt="" />
         </a>
       </div>

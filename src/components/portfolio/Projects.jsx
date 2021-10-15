@@ -1,9 +1,9 @@
-import "./portfolio.scss"
+import "./projects.scss"
 
-export default function Portfolio() {
+export default function Projects() {
     return (
-        <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
+        <div className="projects" id="projects">
+            <h1>Projects</h1>
             <ul>
                 <li>Featured</li>
                 <li>Web App</li>
@@ -11,7 +11,8 @@ export default function Portfolio() {
             </ul>
             <div className="container">
                 <div className="item">
-                    Weather App
+                    <img src="../assets/weather.png" alt="" />
+                    <h3>Weather App</h3>
                 </div>
             </div>
         </div>
