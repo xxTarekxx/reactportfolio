@@ -1,12 +1,12 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Projects";
+import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Skills from './components/skills/Skills'
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
-import Projects from "./components/portfolio/Projects";
+// import Projects from "./components/portfolio/Projects";
 // import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
