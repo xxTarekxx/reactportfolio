@@ -1,8 +1,15 @@
 @import "../../global.scss";
 
 .intro {
-  background-color: #ffffff;
+  // background-color: #ffffff;
   // #5a189a
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    135deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(185, 106, 255, 1) 62%,
+    rgba(102, 45, 145, 1) 100%
+  );
   display: flex;
 
   .left {
@@ -10,15 +17,15 @@
     overflow: hidden;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
-      background-color: $maincolor;
+      width: 380px;
+      height: 400px;
+      background-color: rgb(255, 255, 255);
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
       float: right;
-      // margin-top: 15%;
+      margin-top: 15%;
       animation: backInLeft 2s; /* referring directly to the animation's @keyframe declaration */
 
       img {
@@ -51,7 +58,8 @@
 
         span {
           font: 30px;
-          color: #b5179e;
+          // color: #b5179e;
+          color: #b60808;
         }
         .ityped-cursor {
           font-size: 2.2rem;

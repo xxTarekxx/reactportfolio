@@ -1,6 +1,9 @@
+
+
 .app {
     height: 100vh;
-
+    margin: 0;
+    background: #246756;
     .sections {
         width: 100%;
         height: calc(100vh - 70px);
@@ -13,7 +16,6 @@
         &::-webkit-scrollbar{
             display: none;
         }
-
         >* {
             width: 100vw;
             height: calc(100vh - 70px);

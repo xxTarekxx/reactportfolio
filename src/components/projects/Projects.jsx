@@ -3,18 +3,15 @@ import "./projects.scss";
 export default function Projects() {
   return (
     <div className="projects" id="projects">
-      <h1>Projects</h1>
-      {/* <div className="portfolio">
-        <div className="active">Weather App</div>
-        <div className="active">Tip Caculator</div>
-        <div className="active">Tip Caculator</div>
-        <div className="active">Tip Caculator</div>
-        <div className="active">Tip Caculator</div>
-      </div> */}
+      {/* <h1>Projects</h1> */}
+      <div className="portfolio">
+        <div className="active">Front End</div>
+        <div className="active">Back End</div>
+      </div>
       <div className="container">
         <div className="item">
           <img src="../assets/weather.png" alt="" />
-          <h3>Weather App</h3>
+          <h3>Weather Appss</h3>
         </div>
         <div className="item">
           <img src="../assets/cal.png" alt="" />
@@ -22,7 +19,7 @@ export default function Projects() {
         </div>
         <div className="item">
           <img src="../assets/reacts.png" alt="" />
-          <h3>React Search</h3>
+          <h3>Multi-Search Engines</h3>
         </div>
         <div className="item">
           <img src="../assets/weather.png" alt="" />

@@ -6,7 +6,7 @@ export default function Intro() {
   const textRef = useRef();
   useEffect(() => {
     init(textRef.current, {
-      backDelay: 1500,
+      backDelay: 2000,
       backSpeed: 50,
       showCursor: true,
       strings: ["Developer", "ReactJS", "Angular", "Bootstrap", "VueJs"],
