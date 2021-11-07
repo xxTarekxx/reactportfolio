@@ -34,10 +34,10 @@
       justify-content: center;
       box-shadow: 0px 0px 2px 2px #000000;
 
-      &.active {
-        // background-color: $maincolor;
-        color: $maincolor;
-      }
+      // &.active {
+      //   background-color: $maincolor;
+      //   color: $maincolor;
+      // }
       &:hover {
         background-color: $maincolor;
         color: white;
