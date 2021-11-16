@@ -1,5 +1,6 @@
 // import Intro from "../intro/Intro";
 // import Topbar from "../topbar/Topbar";
+import Showtime from "../clock/Clock";
 import "./menu.scss";
 
 export default function Menu({ menuOpen, setMenuOpen }) {
