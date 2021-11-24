@@ -1,15 +1,13 @@
 @import "../../global.scss";
 
 .intro {
-  // background-color: #ffffff;
-  // #5a189a
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    135deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(185, 106, 255, 1) 62%,
-    rgba(102, 45, 145, 1) 100%
-  );
+  background-color: #fae4e4;
+  // background: linear-gradient(
+  //   135deg,
+  //   rgba(2, 0, 36, 1) 0%,
+  //   rgba(185, 106, 255, 1) 62%,
+  //   rgba(102, 45, 145, 1) 100%
+  // );
   display: flex;
 
   .left {
@@ -100,3 +98,4 @@
     }
   }
 }
+
