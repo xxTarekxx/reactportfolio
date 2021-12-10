@@ -13,7 +13,7 @@ function Showtime() {
   setInterval(checkTime, 1000);
 
   return (
-      <span className="localTime">{currentTime}</span>
+      <div className="localTime">{currentTime}</div>
   );
 }
 
