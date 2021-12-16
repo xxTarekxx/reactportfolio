@@ -6,8 +6,7 @@ import Skills from "./components/skills/Skills";
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
-// import Projects from "./components/portfolio/Projects";
-// import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);

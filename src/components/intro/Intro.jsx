@@ -10,7 +10,7 @@ export default function Intro() {
       backDelay: 2000,
       backSpeed: 50,
       showCursor: true,
-      strings: ["Developer", "ReactJS", "Angular", "Bootstrap", "VueJs"],
+      strings: ["Developer", "ReactJS", "Bootstrap", "VueJs"],
     });
   }, []);
   return (
